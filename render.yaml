@@ -1,0 +1,20 @@
+# Render "Blueprint": lets Render create the Bwat server from this repository.
+# Render dashboard -> New -> Blueprint -> pick this repository.
+services:
+  - type: web
+    name: bwat
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: BWAT_ADMIN_USER
+        sync: false          # you type it in the Render dashboard (kept secret, not in the code)
+      - key: BWAT_ADMIN_PASSWORD
+        sync: false
+    # To keep the database (questions you add, past games) when the server restarts,
+    # use a paid plan with a disk and uncomment these lines:
+    # disk:
+    #   name: bwat-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
+    # and add an environment variable BWAT_DB_PATH = /var/data/bwat.db

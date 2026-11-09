@@ -1,0 +1,9 @@
+# Bwat server - address used in room links
+#
+# Players on the SAME Wi-Fi: leave this file as it is (only comment lines).
+#
+# Players on OTHER networks (internet): write the public address of your
+# tunnel (e.g. playit.gg) or cloud server on the line below, without the #,
+# then restart BwatServer.exe. Examples:
+#     abc-def.gl.at.ply.gg:41234
+#     20.55.123.45

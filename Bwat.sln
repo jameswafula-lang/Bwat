@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwatCommon", "BwatCommon\BwatCommon.csproj", "{27AF7C72-617C-4A94-A446-74E3320CA703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwatServer", "BwatServer\BwatServer.csproj", "{114D56A6-4259-4089-B706-1D15A55B864A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwatClient", "BwatClient\BwatClient.csproj", "{5237F04C-BCFB-4695-AD7E-66ED054FAEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27AF7C72-617C-4A94-A446-74E3320CA703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AF7C72-617C-4A94-A446-74E3320CA703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AF7C72-617C-4A94-A446-74E3320CA703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AF7C72-617C-4A94-A446-74E3320CA703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114D56A6-4259-4089-B706-1D15A55B864A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114D56A6-4259-4089-B706-1D15A55B864A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114D56A6-4259-4089-B706-1D15A55B864A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114D56A6-4259-4089-B706-1D15A55B864A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5237F04C-BCFB-4695-AD7E-66ED054FAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5237F04C-BCFB-4695-AD7E-66ED054FAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5237F04C-BCFB-4695-AD7E-66ED054FAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5237F04C-BCFB-4695-AD7E-66ED054FAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
